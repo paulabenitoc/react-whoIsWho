@@ -1,0 +1,42 @@
+.board-game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.board-game-container img {
+  width: 100px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  border: 6px solid #FE4F60;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.clues-container {
+  width: 100%;
+  text-align: center;
+}
+
+.questions-container h2,
+h2 {
+  font-family: Arial;
+  color: #333333;
+}
+
+.questions-container button {
+  border-radius: 10px;
+  min-width: 200px;
+  padding: 10px;
+  background-color: #FE4F60;
+  color: #FFFFFF;
+  border: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
